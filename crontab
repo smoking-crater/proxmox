@@ -1,0 +1,2 @@
+
+3 * * * * python /root/get_prox_tags.py  >> /dev/null 2>&1

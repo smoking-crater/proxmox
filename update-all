@@ -1,0 +1,8 @@
+#export ANSIBLE_HOST_KEY_CHECKING=False
+# /etc/ansible/hosts
+#ansible-playbook --ask-pass 
+# /etc/ansible/hosts
+#ansible-playbook --ask-pass -i /root/inventory update-centos.yml
+#ansible-playbook --ask-pass -i /root/inventory update-ubuntu.yml
+ansible-playbook -i /root/inventory update-centos.yml
+ansible-playbook -i /root/inventory update-ubuntu.yml
