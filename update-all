@@ -5,5 +5,6 @@
 # /etc/ansible/hosts
 #ansible-playbook --ask-pass -i /root/inventory update-centos.yml
 #ansible-playbook --ask-pass -i /root/inventory update-ubuntu.yml
-ansible-playbook -i /root/inventory playbook-update-centos.yml
-ansible-playbook -i /root/inventory playbook-update-ubuntu.yml
+/usr/bin/python /root/prox-ansible/get_prox_tags.py
+ansible-playbook -i inventory playbook-update-centos.yml
+ansible-playbook -i inventory playbook-update-ubuntu.yml

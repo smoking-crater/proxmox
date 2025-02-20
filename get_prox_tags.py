@@ -15,7 +15,7 @@ import os
 servers = ['192.168.0.73','192.168.1.49']
 
 #what tags are you wanting to look for an put into inventory?
-tags = ['centos','debian']
+tags = ['centos','debian','windows']
 
 #username/pwd of your clusters should go into a .env file
 load_dotenv()
